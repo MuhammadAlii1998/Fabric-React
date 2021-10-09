@@ -1,0 +1,162 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+#c-id {
+  border-style: solid;
+}
+#shape {
+  padding: 0.5rem;
+}
+#drawShape {
+  margin: 1rem;
+}
+/* #properties {
+  background: lightseagreen;
+  height: 505px;
+  width: 223px;
+  float: left;
+} */
+#shapesDropdown {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  padding-left: 0.2rem;
+  padding-bottom: 1.5rem;
+}
+#uploadImage {
+  padding-top: 0.2rem;
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+  padding-left: 0.3rem;
+}
+#uploadButton {
+  float: right;
+  padding: 0.3rem;
+}
+#style,
+#color,
+#size,
+#bold,
+#italic,
+#underline,
+#shapeProperties,
+#changeStrokeWidth,
+#strokeColor,
+#drawingMode,
+#clearCanvas,
+#redo,
+#undo,
+#textButton,
+#imageButton,
+#shapeButton,
+#coreOptions,
+#brushColor,
+#brushWidth,
+#canvasProperties,
+#childObject,
+#img,
+#showShapes {
+  display: inline-block;
+}
+#shapeProperties,
+#brushProperties {
+  border-style: groove;
+  float: left;
+}
+#top-nav-bar {
+  background: whitesmoke;
+  width: 100%;
+  height: 82px;
+}
+#coreOptions,
+#canvasProperties {
+  border-style: groove;
+  padding-bottom: 1.15rem;
+  float: left;
+}
+
+#undo,
+#redo,
+#clearCanvas,
+#textButton,
+#imageButton,
+#shapeButton,
+#drawingMode,
+#style,
+#color,
+#size,
+#bold,
+#italic,
+#underline,
+#changeStrokeWidth,
+#strokeColor,
+#brushColor,
+#brushWidth {
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-right: 2px;
+}
+#canvasPropertiesTitle,
+#coreFeaturesTitle {
+  font-size: 10pt;
+  margin-top: 1px;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
+#textProperties,
+#img,
+#showShapes {
+  float: left;
+  border-style: groove;
+}
+#textPropertiesTitle,
+#brushPropertiesTitle,
+#childObjectTitle {
+  font-size: 10pt;
+  margin-top: 1px;
+  font-weight: bold;
+}
+#borderPropertiesTitle {
+  font-size: 10pt;
+  margin-top: 1px;
+  font-weight: bold;
+}
+#childObject {
+  float: left;
+}
